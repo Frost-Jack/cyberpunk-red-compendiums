@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "bungee-cord",
+    "name": "Bungee Cord",
+    "page": 3,
+    "price": 10
+  },
+  {
+    "slug": "chop",
+    "name": "Chop",
+    "page": 3,
+    "price": 1,
+    "electronic": true,
+    "concealable": true
+  },
+  {
+    "slug": "cigarettes-generic",
+    "name": "Cigarettes (Generic)",
+    "page": 3,
+    "price": 10
+  },
+  {
+    "slug": "cigarettes-biotechnica",
+    "name": "Cigarettes (Biotechnica)",
+    "page": 4,
+    "price": 50,
+    "brand": "Biotechnica"
+  },
+  {
+    "slug": "cigarillo-nomad",
+    "name": "Cigarillo (Nomad)",
+    "page": 4,
+    "price": 0
+  },
+  {
+    "slug": "continental-brands-enduru",
+    "name": "Continental Brands EndurU",
+    "page": 4,
+    "price": 10,
+    "brand": "Continental Brands"
+  },
+  {
+    "slug": "cushions",
+    "name": "Cushions",
+    "page": 4,
+    "price": 10
+  },
+  {
+    "slug": "danshi-badgemaker",
+    "name": "Danshi Badgemaker",
+    "page": 4,
+    "price": 500,
+    "brand": "Danshi",
+    "electronic": true
+  },
+  {
+    "slug": "datatel-image-wallet",
+    "name": "DataTel Image Wallet",
+    "page": 4,
+    "price": 20,
+    "brand": "DataTel",
+    "electronic": true
+  },
+  {
+    "slug": "datatel-treasure",
+    "name": "DataTel Treasure",
+    "page": 4,
+    "price": 10,
+    "brand": "DataTel"
+  },
+  {
+    "slug": "dinghy",
+    "name": "Dinghy",
+    "page": 4,
+    "price": 500
+  },
+  {
+    "slug": "foambag",
+    "name": "Foambag",
+    "page": 5,
+    "price": 20,
+    "concealable": true
+  },
+  {
+    "slug": "gun-cleaning-kit",
+    "name": "Gun Cleaning Kit",
+    "page": 5,
+    "price": 50
+  },
+  {
+    "slug": "hammock",
+    "name": "Hammock",
+    "page": 5,
+    "price": 50
+  },
+  {
+    "slug": "iec-micro-mate-blender",
+    "name": "IEC Micro-Mate Blender",
+    "page": 5,
+    "price": 50,
+    "brand": "IEC",
+    "electronic": true
+  },
+  {
+    "slug": "kiroshi-multiscope",
+    "name": "Kiroshi Multiscope",
+    "page": 5,
+    "price": 100,
+    "brand": "Kiroshi"
+  },
+  {
+    "slug": "leads-autotan",
+    "name": "Lead’s Autotan™",
+    "page": 5,
+    "price": 20,
+    "brand": "Lead’s"
+  },
+  {
+    "slug": "leads-bodyfree-mask",
+    "name": "Lead’s Bodyfree Mask",
+    "page": 5,
+    "price": 100,
+    "brand": "Lead’s"
+  },
+  {
+    "slug": "leads-radiation-ring",
+    "name": "Lead’s Radiation Ring",
+    "page": 5,
+    "price": 10,
+    "brand": "Lead’s"
+  },
+  {
+    "slug": "microtech-trode-set",
+    "name": "Microtech Trode Set",
+    "page": 5,
+    "price": 20,
+    "brand": "Microtech",
+    "electronic": true
+  },
+  {
+    "slug": "militech-armor-patch-kit",
+    "name": "Militech Armor Patch Kit",
+    "page": 6,
+    "price": 20,
+    "brand": "Militech"
+  },
+  {
+    "slug": "petrochem-speedfill",
+    "name": "Petrochem SpeedFill",
+    "page": 6,
+    "price": 50,
+    "brand": "Petrochem"
+  },
+  {
+    "slug": "portable-stove",
+    "name": "Portable Stove",
+    "page": 6,
+    "price": 50
+  },
+  {
+    "slug": "small-generator",
+    "name": "Small Generator",
+    "page": 6,
+    "price": 500,
+    "electronic": true
+  },
+  {
+    "slug": "sovoil-neochew",
+    "name": "SovOil NeoChew",
+    "page": 6,
+    "price": 5,
+    "brand": "SovOil"
+  },
+  {
+    "slug": "worldsat-newsdeck",
+    "name": "WorldSat Newsdeck",
+    "page": 6,
+    "price": 20,
+    "brand": "WorldSat",
+    "electronic": true
+  },
+  {
+    "slug": "zetatech-flopscreen",
+    "name": "Zetatech Flopscreen",
+    "page": 6,
+    "price": 100,
+    "brand": "Zetatech",
+    "electronic": true,
+    "concealable": true
+  },
+  {
+    "slug": "zetatech-holotank",
+    "name": "Zetatech Holotank",
+    "page": 6,
+    "price": 100,
+    "brand": "Zetatech",
+    "electronic": true
+  }
+]

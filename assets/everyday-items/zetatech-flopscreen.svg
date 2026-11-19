@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Zetatech Flopscreen</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M22 31q14 9 26 7l49-10q7-1 12 4v62q-5-6-12-4l-49 10q-12 3-26-7Z" fill="#e64539"/>
+    <path d="M30 39q10 6 19 4l48-9v49l-48 10q-9 2-19-4Z" fill="#1b1f21"/>
+    <path d="M25 30q-10-7-10 2v62q0 7 10 5m76-71q12-7 12 2v62q0 7-12 4" fill="none" stroke="#e64539" stroke-width="5" stroke-linecap="round"/>
+    <path d="m56 50 18 7-18 16Z" fill="#e64539"/>
+    <path d="M39 84q7 3 13 1l36-7" fill="none" stroke="#3a3f5e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

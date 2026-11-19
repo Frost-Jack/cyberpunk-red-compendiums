@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Bungee Cord</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <g fill="none" stroke="#e64539" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M36 90c-9 6-19 2-20-6-1-5 2-10 7-11m70-33c8-7 18-5 20 3 2 6-1 11-6 13"/>
+      <path d="M36 90c14-13 57 19 66-5 5-14-17-24-40-20-17 3-34-3-34-16 0-20 32-26 65-9"/>
+    </g>
+    <path d="m35 80 9 7-7 9-9-7zm48-41 3-10 12 5-3 10z" fill="#e64539" stroke="#1b1f21" stroke-width="2.5"/>
+    <path d="M50 40c12-3 24-1 32 2M62 69c10-2 23 0 29 4M46 90l20 5" fill="none" stroke="#3a3f5e" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

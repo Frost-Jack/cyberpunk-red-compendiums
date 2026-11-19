@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Gun Cleaning Kit</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M47 28h34v15H47Zm5 5v5h24v-5Z" fill="#e64539" fill-rule="evenodd"/>
+    <path d="M23 41h82a6 6 0 0 1 6 6v53a6 6 0 0 1-6 6H23a6 6 0 0 1-6-6V47a6 6 0 0 1 6-6Z" fill="#e64539"/>
+    <path d="M24 48h80v49H24Z" fill="#1b1f21"/>
+    <path d="M36 65V55h10v10l5 5v18H31V70Z" fill="#e64539"/>
+    <path d="M32 76h18v6H32Z" fill="#3a3f5e"/>
+    <path d="M65 58h35m-35 10h35m-35 10h35m-35 10h35" stroke="#e64539" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M77 57v3m5-3v3m5-3v3m-16 15v6m6-6v6m6-6v6m6-6v6m6-6v6" stroke="#3a3f5e" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Hammock</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M20 37v57m88-57v57" fill="none" stroke="#e64539" stroke-width="8" stroke-linecap="round"/>
+    <path d="M23 45c10 23 26 36 42 36 17 0 33-13 40-36-8 30-24 49-40 49-18 0-34-18-42-49Z" fill="#e64539"/>
+    <path d="M37 68q9 14 16 19m-4-10 10 14m2-9 4 12m7-12-2 10m13-16-7 14m16-23-7 15" stroke="#3a3f5e" stroke-width="2.1"/>
+    <path d="M17 42h8m80 0h7m-97 56h12m74 0h13" stroke="#3a3f5e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

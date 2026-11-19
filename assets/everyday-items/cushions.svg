@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Cushions</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M27 33q9-6 20-4l37 5q10 3 12 11l-4 32q-1 10-12 12L32 84q-14-2-14-13l3-29q1-6 6-9Z" fill="#e64539"/>
+    <path d="M28 41q25-7 57 3m-61 25q0 8 9 9l29 3" fill="none" stroke="#3a3f5e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M49 60q11-7 22-6l31 1q10 0 12 12 1 18-5 32-2 8-15 9l-40-4q-12-1-12-12-1-20 7-32Z" fill="#e64539" stroke="#1b1f21" stroke-width="4"/>
+    <path d="M53 69q16-6 48-4 6 1 6 6m-58 17q-1 10 8 10l36 4" fill="none" stroke="#3a3f5e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M70 76q5 3 13 3" fill="none" stroke="#3a3f5e" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>SovOil NeoChew</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <g transform="rotate(-29 64 64)">
+      <path d="M33 22h62a5 5 0 0 1 5 5v74a5 5 0 0 1-5 5H33a5 5 0 0 1-5-5V27a5 5 0 0 1 5-5Z" fill="#e64539"/>
+      <path d="M34 29h60v27H34Z" fill="#3a3f5e"/>
+      <path d="M55 36h16l8 7-8 7H55l-8-7Z" fill="#e64539"/>
+      <path d="m61 38 7 5-7 5z" fill="#1b1f21"/>
+      <path d="M35 64h58v35H35Z" fill="#1b1f21"/>
+      <path d="M46 69h9a5 5 0 0 1 5 5v16a5 5 0 0 1-5 5h-9a5 5 0 0 1-5-5V74a5 5 0 0 1 5-5Zm26 0h9a5 5 0 0 1 5 5v16a5 5 0 0 1-5 5h-9a5 5 0 0 1-5-5V74a5 5 0 0 1 5-5Z" fill="#e64539"/>
+      <path d="M47 74h7m19 0h7" stroke="#3a3f5e" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

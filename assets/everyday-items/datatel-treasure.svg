@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>DataTel Treasure</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <g transform="rotate(-17 64 64)">
+      <path d="M48 13h32l5 36H43Zm-5 66h42l-5 36H48Z" fill="#e64539"/>
+      <path d="M54 23h20m-21 8h22m-22 58h22m-21 8h20m-19 8h18" stroke="#3a3f5e" stroke-width="3" stroke-linecap="round"/>
+      <path d="M42 40h44l10 10v27l-10 10H42L32 77V50Z" fill="#e64539" stroke="#1b1f21" stroke-width="3"/>
+      <path d="M47 50h34l6 6v14l-6 6H47l-6-6V56Z" fill="#1b1f21"/>
+      <path d="M50 58v9h5m7-9h7v9h-7Zm14 9v-9m-18 4h1" stroke="#e64539" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M93 59h7v11h-7" fill="#3a3f5e"/>
+    </g>
+  </g>
+</svg>

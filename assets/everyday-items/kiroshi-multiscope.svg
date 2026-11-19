@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Kiroshi Multiscope</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <g transform="rotate(-25 64 64)">
+      <path d="M26 49h12l5-9h35l10 8h12q9 0 9 8v16q0 8-9 8H88l-10 8H43l-5-9H26Z" fill="#e64539"/>
+      <path d="M47 43h27v42H47zm28 10h16v21H75Z" fill="#3a3f5e"/>
+      <path d="M52 49h19m-19 7h19m-19 7h19m-19 7h19m-19 7h19" stroke="#e64539" stroke-width="2.1" stroke-linecap="round"/>
+      <path d="M39 53v22m52-26v31" stroke="#1b1f21" stroke-width="2.5"/>
+      <ellipse cx="101" cy="64" rx="8" ry="14" fill="#1b1f21" stroke="#3a3f5e" stroke-width="2.5"/>
+      <ellipse cx="102" cy="64" rx="3" ry="8" fill="#e64539"/>
+      <path d="M20 49h10v30H20q-5 0-5-6V55q0-6 5-6Z" fill="#e64539" stroke="#1b1f21" stroke-width="2.5"/>
+      <path d="M56 38v-7h14v7" fill="#e64539" stroke="#1b1f21" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

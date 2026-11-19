@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Chop</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <g transform="rotate(-16 64 64)">
+      <path d="M34 23h51l12 13v67H31a6 6 0 0 1-6-6V32a9 9 0 0 1 9-9Z" fill="#e64539"/>
+      <path d="M32 32h49l10 10v8H32zm0 56h58v8H32z" fill="#3a3f5e"/>
+      <rect x="39" y="54" width="43" height="27" rx="5" fill="#1b1f21"/>
+      <path d="M49 55v8l7 3h10l7-3v-8M49 80v-7l7-3h10l7 3v7m-32-13h12m17 0h10" fill="none" stroke="#e64539" stroke-width="2.5"/>
+      <path d="M42 40h26" stroke="#e64539" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

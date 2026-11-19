@@ -1,0 +1,6 @@
+/packs/*/LOCK
+/packs/*/LOG
+/packs/*/LOG.old
+/packs/*/*.log
+/packs/everyday-items/
+/dist/

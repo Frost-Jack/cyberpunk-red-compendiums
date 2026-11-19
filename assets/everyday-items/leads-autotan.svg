@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Lead’s Autotan</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M38 45l-7-7m-7 18h-9m31-21v-9m11 12 6-7m-32 40-7 6" fill="none" stroke="#3a3f5e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M36 62a13 13 0 1 1 23-11" fill="none" stroke="#e64539" stroke-width="4" stroke-linecap="round"/>
+    <g transform="rotate(42 65 68)">
+      <path d="M53 37h25v55l-6 6H59l-6-6Z" fill="#e64539"/>
+      <path d="M58 45h15v34H58Z" fill="#3a3f5e"/>
+      <path d="M49 36h33v7H49Zm10-12h13v12H59Z" fill="#e64539"/>
+      <path d="M58 23h15m-7 74v13" stroke="#e64539" stroke-width="4" stroke-linecap="round"/>
+      <path d="M62 51h8m-8 7h5m-5 7h8m-8 7h5" stroke="#e64539" stroke-width="2.3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

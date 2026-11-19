@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Lead’s Radiation Ring</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M30 74a34 32 0 1 0 68 0 34 32 0 0 0-68 0Zm12 0a22 20 0 1 1 44 0 22 20 0 0 1-44 0Z" fill="#e64539" fill-rule="evenodd"/>
+    <path d="M39 87q16 24 43 10M43 59q14-13 31-8" fill="none" stroke="#3a3f5e" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M49 27h30l8 12-9 15H50l-9-15Z" fill="#e64539" stroke="#1b1f21" stroke-width="3"/>
+    <circle cx="64" cy="40" r="10" fill="#3a3f5e"/>
+    <circle cx="64" cy="40" r="2.4" fill="#e64539"/>
+    <path d="M61 36 59 33q5-4 10 0l-2 3q-3-2-6 0Zm6 6 4 1q0 5-4 7l-2-4q2-1 2-4Zm-6 0-4 1q0 5 4 7l2-4q-2-1-2-4Z" fill="#e64539"/>
+    <path d="M47 20l-5-6m22 7v-8m17 7 5-6" fill="none" stroke="#3a3f5e" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+</svg>

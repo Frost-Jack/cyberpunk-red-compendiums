@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Lead’s Bodyfree Mask</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M32 39c3-12 18-21 32-21s29 9 32 21l-2 31c-2 14-13 27-26 36a7 7 0 0 1-8 0c-13-9-24-22-26-36Z" fill="#e64539"/>
+    <path d="M64 25c-13 0-25 8-26 16l3 27c3 12 12 24 23 31 11-7 20-19 23-31l3-27c-1-8-13-16-26-16Z" fill="#3a3f5e"/>
+    <path d="M45 52q7-5 14 3-6 7-13 3Zm24 3q7-8 14-3l-1 6q-7 4-13-3Zm-8 15 3-9 3 9-3 2Zm-6 11q9-5 18 0-9 8-18 0Z" fill="#1b1f21"/>
+    <path d="M48 45q5-4 11 0m10 0q6-4 11 0M46 68l3 7m33-7-3 7" fill="none" stroke="#e64539" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M103 44v11m-5-5h10m-86 11v12m-6-6h12" stroke="#e64539" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+</svg>

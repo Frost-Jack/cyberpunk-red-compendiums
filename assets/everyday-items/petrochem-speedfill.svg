@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Petrochem SpeedFill</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M45 45h36l7 12v43q0 9-8 9H46q-8 0-8-9V57Z" fill="#e64539"/>
+    <path d="M42 57h42v13H42Zm0 40h42v8H42Z" fill="#3a3f5e"/>
+    <path d="M53 32h25v14H53Zm-4 13h32v6H49Z" fill="#e64539" stroke="#1b1f21" stroke-width="2"/>
+    <path d="M73 34h12c6 0 10-5 11-10" fill="none" stroke="#e64539" stroke-width="4" stroke-linecap="round"/>
+    <path d="M96 24q1-9 10-5 5-7 11-2 7 4 2 10 2 8-5 9-6 1-9-5-8 2-9-7Z" fill="#e64539"/>
+    <path d="m50 89 8-11 6 4 5-6 8 13Z" fill="#1b1f21"/>
+    <circle cx="68" cy="80" r="2" fill="#e64539"/>
+  </g>
+</svg>

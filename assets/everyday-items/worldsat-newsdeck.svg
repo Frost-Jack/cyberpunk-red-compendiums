@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>WorldSat Newsdeck</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M37 18h54l10 10v76l-10 8H37l-10-8V29Z" fill="#e64539"/>
+    <path d="M35 29h58v64H35Z" fill="#1b1f21"/>
+    <path d="M40 34h48v6H40Zm0 12h22v20H40Zm28 1h20v3H68Zm0 7h20v3H68Zm0 7h16v3H68ZM40 73h48v3H40Zm0 7h48v3H40Zm0 7h34v2H40Z" fill="#e64539"/>
+    <path d="m44 62 6-8 4 4 3-5 2 9Z" fill="#3a3f5e"/>
+    <path d="M55 102h18m13-78h5" stroke="#3a3f5e" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

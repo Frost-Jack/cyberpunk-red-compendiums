@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Militech Armor Patch Kit</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M16 41h86l10 13v49H16Z" fill="#e64539"/>
+    <path d="M26 47 18 59h93l-9-12Z" fill="#3a3f5e"/>
+    <path d="M21 63h86v34H21Z" fill="#1b1f21"/>
+    <path d="M40 29h47l10 13-8 29c-3 8-15 16-25 20-10-4-22-12-25-20l-9-29Z" fill="#e64539" stroke="#1b1f21" stroke-width="3"/>
+    <path d="M44 37h40l5 7-7 26c-4 5-11 10-18 13-7-3-14-8-18-13l-7-26Z" fill="#3a3f5e"/>
+    <path d="M60 45h8v9h9v8h-9v10h-8V62H50v-8h10Z" fill="#e64539"/>
+    <path d="M25 90h12m53 0h13" stroke="#e64539" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

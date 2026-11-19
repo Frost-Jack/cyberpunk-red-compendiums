@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>IEC Micro-Mate Blender</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M42 25h40l-6 50H50Z" fill="#e64539"/>
+    <path d="M78 35h10c12 0 13 22 4 28l-14 4" fill="none" stroke="#e64539" stroke-width="5"/>
+    <path d="M37 21h49v7H37Zm17-7h17v8H54Z" fill="#e64539"/>
+    <path d="M51 34h22l-4 31H55Z" fill="#3a3f5e"/>
+    <path d="M56 47h9m-8 8h7m-5 8h4" stroke="#e64539" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M48 77h31l9 11v19H38V88Z" fill="#e64539"/>
+    <path d="M45 90h36v12H45Z" fill="#3a3f5e"/>
+    <circle cx="64" cy="96" r="5" fill="#e64539"/>
+    <path d="M39 110h48" stroke="#3a3f5e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

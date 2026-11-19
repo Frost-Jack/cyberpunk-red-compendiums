@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <title>Cigarettes (Generic)</title>
+  <defs>
+    <filter id="inset" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#3a3f5e" result="shade"/>
+      <feComposite in="shade" in2="SourceGraphic" operator="out"/>
+      <feGaussianBlur stdDeviation="1.45"/>
+      <feComposite in2="SourceGraphic" operator="atop"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" fill="#1b1f21"/>
+  <g filter="url(#inset)">
+    <path d="M33 48 44 34h48v66l-14 12H33Z" fill="#e64539"/>
+    <path d="M78 51h14v49l-14 12Z" fill="#3a3f5e"/>
+    <path d="M34 49h44l14-15H44Z" fill="#3a3f5e"/>
+    <path d="M42 39V24q4-6 9 0v17zm14 2V20q4-6 9 0v23zm14 0V26q4-6 9 0v15z" fill="#e64539" stroke="#1b1f21" stroke-width="2"/>
+    <path d="M44 31h5m10-4h4m9 6h5" stroke="#3a3f5e" stroke-width="2"/>
+    <path d="M39 63h32v17H39Zm0 24h21v5H39Z" fill="#1b1f21"/>
+    <path d="M43 71h24" stroke="#e64539" stroke-width="2"/>
+  </g>
+</svg>
